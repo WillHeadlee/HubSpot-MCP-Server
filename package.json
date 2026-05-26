@@ -1,0 +1,15 @@
+{
+  "name": "hubspot-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for HubSpot CRM — manage contacts, deals, and companies directly.",
+  "type": "module",
+  "bin": {
+    "hubspot-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest"
+  }
+}
